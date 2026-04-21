@@ -7,10 +7,10 @@ Led renewable energy integration, SCADA based monitoring enhancement, strengthen
 **Technical Skills:** PSCAD, PSS/E, MATLAB/Simulink, POWERWORLD, ASPEN Oneliner, OpenDSS, Typhoon HIL-Simulator, ETAP and Python.
 
 ## Education
-- Ph.D., Electrical and Computer Engineering | University of Missouri-Kansas city (_Expected July-2026_)
-- M.S., Electrical Engineering | University of Missouri-Kansas city (_Dec-2019_)
-- M.Tech, Power Electronics | Rajeev Gandhi Memorial College of Engineering and Technology-_A.P, India_ (_Dec-2015_)
-- B.Tech, Electrical and Electronics Engineering | Bhimavaram Institute of Engineering and Technology-_A.P, India_ (_May-2012_)
+- Ph.D., Electrical and Computer Engineering     | University of Missouri-Kansas city (_Expected July-2026_) 
+- M.S., Electrical Engineering                   | University of Missouri-Kansas city (_Dec-2019_) 
+- M.Tech, Power Electronics                      | R G M College of Engineering and Technology-_A.P, India_ (_Dec-2015_) 
+- B.Tech, Electrical and Electronics Engineering | Bhimavaram Institute of Engineering and Technology-_A.P, India_ (_May-2012_) 
 
 ## Work Experience
 **Electrical Engineer**
@@ -20,5 +20,5 @@ Led renewable energy integration, SCADA based monitoring enhancement, strengthen
 
 
 
-> [!TIP]\
+> [!TIP]
 > Helpful advice for doing things better or more easily.
