@@ -1633,10 +1633,8 @@ input, select, textarea {
 		}
 
 		.image.fit {
-			width: 100px;        /* adjust size */
-            height: 100px;       /* must match width */
-            border-radius: 75%;  /* makes it circular */
-            object-fit: cover;   /* keeps image centered & cropped */
+			display: block;
+			width: 100%;
 		}
 
 		.image.featured {
@@ -1655,9 +1653,9 @@ input, select, textarea {
 			margin: 0 0 2em 0;
 		}
 
-			.image.centered img {
-				margin: 0 auto;
-				width: auto;
+		.image.centered img {
+			margin: 0 auto;
+			width: auto;
 			}
 
 /* Button */
