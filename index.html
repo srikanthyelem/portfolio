@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Miniport by HTML5 UP</title>
+		<title>Sreekanth | Power Systems Engineer</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -16,20 +16,36 @@
 		<!-- Nav -->
 			<nav id="nav">
 				<ul class="container">
-					<li><a href="#top">Top</a></li>
+					<li><a href="#Home">Home</a></li>
 					<li><a href="#About Me">About Me</a></li>
 					<li><a href="#Education">Education</a></li>
 					<li><a href="#Projects">Projects</a></li>
 					<li><a href="#contact">Contact</a></li>
 				</ul>
 			</nav>
+		
+			<!-- Tab Bar -->
+			<section id="tabs" class="wrapper style1">
+    			<div class="container">
+       				<div class="tab-buttons">
+           			 <button class="tab-btn active" onclick="openTab('Home')">Home</button>
+            		<button class="tab-btn" onclick="openTab('AboutMe')">About Me</button>
+            		<button class="tab-btn" onclick="openTab('Education')">Education</button>
+            		<button class="tab-btn" onclick="openTab('Projects')">Projects</button>
+            		<!-- button class="tab-btn" onclick="openTab('Skills')">Skills</button-->
+            		<!--button class="tab-btn" onclick="openTab('Teaching')">Teaching</button-->
+            		<!--button class="tab-btn" onclick="openTab('Publications')">Publications</button-->
+            		<button class="tab-btn" onclick="openTab('contact')">Contact</button>
+        			</div>
+    			</div>
+			</section>
 
 		<!-- Home -->
-			<article id="top" class="wrapper style1">
+			<article id="Home" class="wrapper style1">
 				<div class="container">
 					<div class="row">
 						<div class="col-4 col-5-large col-12-medium">
-							<span class="image fit"><img src="logo.JPG" alt="" /></span>
+							<span class="image fit"><img src="logo.jpg" alt="" /></span>
 						</div>
 						<div class="col-8 col-7-large col-12-medium">
 							<header>
@@ -43,12 +59,12 @@
 			</article>
 
 		<!-- About Me -->
-			<article id="About Me" class="wrapper style2">
+			<article id="AboutMe" class="wrapper style2">
 				<div class="container">
 					<header>
 						<h2>An Power System Engineer with 4+ years of experience delivering Power Systems, Power Electronics and Drives.</h2>
-						<p>Applied load flow, short-circuit and protection coordination studies to improve system reliability, fault selectivity and safety performance.</p>
-						<p>Led renewable energy integration, SCADA based monitoring enhancement, strengthening grid visibility and operational efficiency.</p>
+						<h1>Applied load flow, short-circuit and protection coordination studies to improve system reliability, fault selectivity and safety performance.</h1>
+						<h1>Led renewable energy integration, SCADA based monitoring enhancement, strengthening grid visibility and operational efficiency.</h1>
 						<p>Softwares that are used through out the Real-Time Projects</p>
 					</header>
 					<div class="row aln-center">
@@ -98,7 +114,7 @@
 					<div class="row aln-center">
 						<div class="col-4 col-6-medium col-12-small">
 							<section class="box style1">
-								<span class="icon solid featured fa-graduation-cap"></span>
+								<span class="icon featured fa-graduation-cap"></span>
 								<h3>Ph.D. in Electrical & Computer Engineering </h3>
                                 <h4>University of Missouri – Kansas City (UMKC)</h4>
                                 <p>Specialization in power system modeling, inverter-based resources, EMT/RMS simulations, and real-time digital simulation. Expected Graduation: Summer 2026.</p>
@@ -128,19 +144,20 @@
 			<article id="Projects" class="wrapper style3">
 				<div class="container">
 					<header>
-						<h2>Here’s some stuff I made recently.</h2>						
+						<h2>Here’s some stuff I made recently.</h2>
+						<p>Proin odio consequat  sapien vestibulum consequat lorem dolore feugiat.</p>
 					</header>
 					<div class="row">
 						<div class="col-4 col-6-medium col-12-small">
 							<article class="box style2">
-								<a href="#" class="image featured"><img src="gfli.png" alt="" /></a>
+								<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
 								<h3><a href="#">Grid-Forming Inverter EMT Model</a></h3>
 								<p>Developed EMT models in PSCAD and Typhoon HIL to study inverter-based resource behavior under grid disturbances.</p>
 							</article>
 						</div>						
 					</div>
 					<footer>
-						<p>More Projects are updating soon </p>
+						<p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
 						<a href="#contact" class="button large scrolly">Get in touch with me</a>
 					</footer>
 				</div>
@@ -216,6 +233,30 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+		
+		<!-- Your Tab Switching Script (ADD THIS HERE) -->
+		<script>
+			function openTab(tabName) {
+   			// Hide all articles
+   			 document.querySelectorAll('article').forEach(section => {
+       		 section.classList.remove('active');
+   			 });
+
+  		    // Remove active state from all buttons
+   			 document.querySelectorAll('.tab-btn').forEach(btn => {
+     		 btn.classList.remove('active');
+    		});
+
+    		// Show selected section
+    		document.getElementById(tabName).classList.add('active');
+
+    		// Highlight active button
+    		event.target.classList.add('active');
+		}
+
+			// Show Home tab by default
+			document.getElementById('Home').classList.add('active');
+		</script>
 
 	</body>
 </html>
