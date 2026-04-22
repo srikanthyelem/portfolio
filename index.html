@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Sreekanth | Power Systems Engineer</title>
+		<title>Srikanth | Power Systems Engineer</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -23,22 +23,6 @@
 					<li><a href="#contact">Contact</a></li>
 				</ul>
 			</nav>
-		
-			<!-- Tab Bar -->
-			<section id="tabs" class="wrapper style1">
-    			<div class="container">
-       				<div class="tab-buttons">
-           			 <button class="tab-btn active" onclick="openTab('Home')">Home</button>
-            		<button class="tab-btn" onclick="openTab('AboutMe')">About Me</button>
-            		<button class="tab-btn" onclick="openTab('Education')">Education</button>
-            		<button class="tab-btn" onclick="openTab('Projects')">Projects</button>
-            		<!-- button class="tab-btn" onclick="openTab('Skills')">Skills</button-->
-            		<!--button class="tab-btn" onclick="openTab('Teaching')">Teaching</button-->
-            		<!--button class="tab-btn" onclick="openTab('Publications')">Publications</button-->
-            		<button class="tab-btn" onclick="openTab('contact')">Contact</button>
-        			</div>
-    			</div>
-			</section>
 
 		<!-- Home -->
 			<article id="Home" class="wrapper style1">
@@ -234,29 +218,5 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 		
-		<!-- Your Tab Switching Script (ADD THIS HERE) -->
-		<script>
-			function openTab(tabName) {
-   			// Hide all articles
-   			 document.querySelectorAll('article').forEach(section => {
-       		 section.classList.remove('active');
-   			 });
-
-  		    // Remove active state from all buttons
-   			 document.querySelectorAll('.tab-btn').forEach(btn => {
-     		 btn.classList.remove('active');
-    		});
-
-    		// Show selected section
-    		document.getElementById(tabName).classList.add('active');
-
-    		// Highlight active button
-    		event.target.classList.add('active');
-		}
-
-			// Show Home tab by default
-			document.getElementById('Home').classList.add('active');
-		</script>
-
 	</body>
 </html>
