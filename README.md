@@ -12,7 +12,7 @@ Led renewable energy integration, SCADA based monitoring enhancement, strengthen
 **LinkedIn:** _Updatesoon_ 
 
  ## Education
- - Ph.D., ECE | Univeristy of Missouri-Kansas City (_Expected July-2026_)
+ - Ph.D., ECE | Univeristy of Missouri-Kansas City (_Dec -2026_)
  - M.S., EE   | Univeristy of Missouri-Kansas City (_Dec-2019_)
 
 ## Work Experience
