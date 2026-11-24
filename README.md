@@ -8,7 +8,7 @@ Led renewable energy integration, SCADA based monitoring enhancement, strengthen
 
 ## Contact Me
 **Mobile:** xxx-xxx-xxxx \
-**Email:** sy99b@umsystem.edu \
+**Email:** srikanthyelem@gmail.com \
 **LinkedIn:** _Updatesoon_ 
 
  ## Education
